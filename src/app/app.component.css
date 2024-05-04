@@ -1,0 +1,28 @@
+.header-with-color{
+    background-color: #0a6818 !important;
+    padding: 5%;
+    color: #ffffff;
+}
+
+.btn{
+    /* box-shadow: 1px 1px 1px 1px #cccccc !important; */
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+.btn-light{
+    color: #0a6818 !important;
+}
+
+.navcontainer{
+    padding-top: 1%;
+    width: 100% !important;
+    
+    /* box-shadow: 1px 3px 5px #cccccc !important; */
+}
