@@ -1,5 +1,5 @@
 .header-with-color{
-    background-color: #0a6818 !important;
+    background-color: #049530 !important;
     padding: 5%;
     color: #ffffff;
 }
@@ -16,8 +16,13 @@
     opacity: 0.7;
 }
 
+.login-btn{
+    background-color: #049530;
+    color: #ffffff;
+}
+
 .btn-light{
-    color: #0a6818 !important;
+    color: #049530 !important;
 }
 
 .navcontainer{
@@ -25,4 +30,44 @@
     width: 100% !important;
     
     /* box-shadow: 1px 3px 5px #cccccc !important; */
+}
+
+.active{
+    color: #049530;
+}
+
+.nav-link:hover{
+    color: #049530 !important;
+}
+
+.navibar{
+    position: absolute; padding-left: 35%; align-content: center !important; width: 100%; left: 0;
+}
+
+.mobile-logo{
+    display: none;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .navcontainer{
+        padding: 0 !important;
+    }
+
+    .main-logo{
+        /* display: none; */
+        position: fixed;
+        /* align-content: center !important; */
+        left: 40%;
+        top: 10px;
+    }
+
+    .navibar{
+        position: relative;
+        text-align: left !important;
+        align-content: left;
+        /* opacity: 0.3; */
+        /* background-color: #049530; */
+    }
 }

@@ -150,19 +150,7 @@
 }
 
 
-.carousel-inner:before {
-    content: "99999";
-    position: absolute;
-    top: 40px;
-    left: 0;
-    height: 400px;
-    width: 400px;
-    background: #ee4d1c !important;
-  
-    border-bottom-left-radius: 50%;
-  
-    box-shadow: 0 20px 0 0 rgb(184, 9, 9);
-  }
+
 
 .carousel-image{
     float: right;
@@ -345,6 +333,10 @@ a{
     margin-left: 5%;
     border-radius: 20px !important;
     width: 90%;
+}
+
+.foots{
+    padding-left: 45px;
 }
 
 
@@ -562,17 +554,6 @@ ul{
     list-style: none;
 }
 
-.capt{
-    background-color: #ee4d1c !important;
-    color: #ee4d1c;
-    height: 50px;
-    width: 50px;
-    /* float: right; */
-    z-index: 201;
-    text-align: center;
-    margin-top: -30px;
-    border-radius: 50%;
-}
 
 .next-inner{
     height: 100%;
@@ -630,10 +611,101 @@ ul{
     .lefted{
         /* display: none; */
         z-index: 170;
-        width: 50% !important;
+        width: 100% !important;
+        height: 300px;
         text-align: center;
-        top: 50px !important;
-        font-size: 70%;
+        /* top: 50px !important; */
+        background-color: rgba(112, 133, 120, 0.4);
+        
+    }
+
+
+    .partners{
+        margin-top: 310px;
+        height: 100px;
+    }
+
+    .support-span{
+        display: none;
+    }
+    .brill{
+        width: 67%;
+    }
+
+    .join-with-us{
+        /* background-color: #ee4d1c; */
+        align-content: left;
+        padding-left: 0px !important;
+    }
+
+    .join-us-button{
+        margin-left: -50px;
+    }
+    .know-more{
+        margin-top: 5px !important;
+        color: #ffffff !important;
+    }
+
+    .know-more a{
+        color: #ffffff;
+    }
+
+    .stats{
+        padding-top: 20px;
+        font-weight: bold;
+
+    }
+
+    
+    .foots{
+        padding-left: 0px;
+    }
+
+    .footer-products, .footer-links, .no-mobile{
+        display: none;
+    }
+
+    .lagos{
+        font-size: 25px !important;
+        padding-top: 10px;
+        text-align: left !important;
+    }
+    .topright, .toprightside, .toprightbottom, .bottomleft, .bottomrightside, .bottomrighttop{
+        display: none;
+    }
+
+    .lefted .brill{
+        text-align: left;
+        font-size: 25px;
+        padding-bottom: 0px;
+    }
+
+    .carousel{
+        width: 100%;
+        padding: 0;
+    }
+
+   
+
+    .carousel-inner{
+        width: 1000px !important;
+        /* background-color: #e70e0e; */
+        border-radius: 0px !important;
+        /* z-index: 300; */
+        padding: 0;
+        margin: 0;
+    }
+
+    .navcontainer{
+        padding: 0%;
+    }
+    .join-with-us{
+        margin-top: 0px;
+        padding-top: 0;
+    }
+
+    .about{
+        display: none;
     }
 
     .lefted span{
