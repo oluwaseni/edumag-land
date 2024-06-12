@@ -1,5 +1,5 @@
 .header-with-color{
-    background-color: #049530 !important;
+    background-color: #2f855a !important;
     padding: 5%;
     color: #ffffff;
 }
@@ -17,12 +17,12 @@
 }
 
 .login-btn{
-    background-color: #049530;
+    background-color: #2f855a;
     color: #ffffff;
 }
 
 .btn-light{
-    color: #049530 !important;
+    color: #2f855a !important;
 }
 
 .navcontainer{
@@ -33,11 +33,11 @@
 }
 
 .active{
-    color: #049530;
+    color: #2f855a;
 }
 
 .nav-link:hover{
-    color: #049530 !important;
+    color: #2f855a !important;
 }
 
 .navibar{
@@ -48,7 +48,7 @@
     display: none;
 }
 a{
-    color: #049530;
+    color: #2f855a;
 }
 
 
@@ -71,7 +71,7 @@ a{
         text-align: left !important;
         align-content: left;
         /* opacity: 0.3; */
-        /* background-color: #049530; */
+        /* background-color: #2f855a; */
     }
 
     .foots{

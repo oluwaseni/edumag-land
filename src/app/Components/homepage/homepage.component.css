@@ -164,12 +164,12 @@
 
 .join-us-button{
     border-radius: 25px;
-    background-color: #049530;
+    background-color: #2f855a;
     color: #ffffff !important;
 }
 
 a{
-    color: #049530;
+    color: #2f855a;
 }
 
 .about{
@@ -179,7 +179,7 @@ a{
 
 .partners{
     position: relative;
-    background-color: #049530;
+    background-color: #2f855a;
     height: 100px;
     margin-top: 45%;
     padding: 15px;
@@ -227,6 +227,15 @@ a{
     transform: translateY(100px);
     transition: transform 1s, opacity 1s;
 }
+.card {
+    --bg-opacity: 1;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, var(--bg-opacity));
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
 
 .second-section .card{
     transition-delay: calc(var(--index) * 300ms);
@@ -253,7 +262,7 @@ a{
     border-radius: 20px;
 }
 .green{
-    color: #049530;
+    color: #2f855a;
 }
 
 .plan-icon{
@@ -263,7 +272,7 @@ a{
 }
 
 .card-title{
-    color: #049530;
+    color: #2f855a;
 }
 
 .my-cards{
@@ -297,7 +306,7 @@ a{
     padding-left: 45px;
 }
 .adjective{
-    color: #049530 !important;
+    color: #2f855a !important;
     font-weight: bold;
 }
 
@@ -401,6 +410,9 @@ a{
 
 @media screen and (max-width: 700px) {
 
+    .card{
+        margin-bottom: 15px !important;
+    }
     .lefted{
         z-index: 170;
         width: 100% !important;
